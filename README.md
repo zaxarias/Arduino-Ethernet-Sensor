@@ -17,6 +17,9 @@
 |3  |hum      |varchar(10)    |              |
 |4  |temp     |varchar(10)    |              |
 
+*hum Stands for Humidity and temp Stands for Temperature*
+
+*timestamp is used to keep track of when data is added to the Database*
 
 **The Ethernet module used is ENC28J60**
 
@@ -55,12 +58,14 @@ Arduino Uno pins: 10 = CS, 11 = MOSI, 12 = MISO, 13 = SCK*
 
 *DHT Library :* [Adafruit DHT Humidity & Temperature Unified Sensor Library](https://github.com/adafruit/DHT-sensor-library)
 
-**Arduino Serial Monitor :**
+**Arduino Uno Serial Monitor :**
+
+*Debug mode is On. We can see all the Serial.print() Messages*
 
 ![alt tag](screenshots/serial_Monitor.png "Sensor Monitor")
 
 **Arduino HTML Data Table :**
 
-![alt tag](screenshots/dataTable.png "Data Table")
+*In the table bellow we see the data sent to our database. More specifically, there is a humidity-temperature sensor connected to our Arduino and periodically via a network connection using the Ethernet Module ENC28J60 these data are recorded in a database. All the recordings are shown in detail in the list bellow.*
 
-*In the table above we see the data sent to our database. More specifically, there is a humidity-temperature sensor connected to our Arduino and periodically via a network connection using the Ethernet Module ENC28J60 these data are recorded in a database. All the recordings are shown in detail in the list above.*
+![alt tag](screenshots/dataTable.png "Data Table")
