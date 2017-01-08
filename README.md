@@ -17,9 +17,9 @@
 |3  |hum      |varchar(10)    |              |
 |4  |temp     |varchar(10)    |              |
 
-*hum Stands for Humidity and temp Stands for Temperature*
+*hum Stands for Humidity and temp Stands for Temperature.*
 
-*timestamp is used to keep track of when data is added to the Database*
+*Type timestamp is used to keep track of when data is added to the Database.*
 
 **The Ethernet module used is ENC28J60**
 
