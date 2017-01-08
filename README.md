@@ -26,3 +26,5 @@ with  an  industry  standard  Serial  Peripheral  Interface
 interface for any controller equipped with SPI.*
 
 **Connect ENC28J60 to Arduino Uno Board**
+
+![alt tag](screenshots/wiringEthernet.png "ENC28J60 Wiring")
