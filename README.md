@@ -47,3 +47,11 @@ interface for any controller equipped with SPI.*
 *The Library for the DHT11 sensor is :*
 
 *DHT Library :* [Adafruit DHT Humidity & Temperature Unified Sensor Library](https://github.com/adafruit/DHT-sensor-library)
+
+**Arduino Serial Monitor :**
+
+![alt tag](screenshots/serial_Monitor.png "Sensor Monitor")
+
+**Arduino HTML Data Table :**
+
+![alt tag](screenshots/dataTable.png "Data Table")
