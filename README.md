@@ -25,6 +25,20 @@ with  an  industry  standard  Serial  Peripheral  Interface
 (SPI).  It  is  designed  to  serve  as  an  Ethernet  network
 interface for any controller equipped with SPI.*
 
-**Connect ENC28J60 to Arduino Uno Board**
+**Connect ENC28J60 to an Arduino Uno Board**
 
 ![alt tag](screenshots/wiringEthernet.png "ENC28J60 Wiring")
+
+**Connect the DHT11 Sensor to an Arduino Uno Board**
+
+![alt tag](screenshots/wiringSensor.png "Sensor Wiring")
+
+![Wiring Designed Using Fritzing Software: http://fritzing.org/home/]("http://fritzing.org/home/")
+
+**Libraries :**
+
+*The Library for the Ethernet Module is :*
+
+*UIPEthernet Library :* ![UIPEthernet Library]("https://github.com/ntruchsess/arduino_uip/")
+
+*The Library for the DHT11 sensor is :* ![DHT11 Library]("https://github.com/adafruit/DHT-sensor-library")
