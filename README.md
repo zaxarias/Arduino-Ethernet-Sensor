@@ -27,12 +27,19 @@ interface for any controller equipped with SPI.*
 
 **Connect ENC28J60 to an Arduino Uno Board**
 
+*Below we can see the wiring between an Arduino Uno R3 and the Ethernet module ENC28J60.*
+
+*ETHERNET WIRING :
+Arduino Uno pins: 10 = CS, 11 = MOSI, 12 = MISO, 13 = SCK*
+
 ![alt tag](screenshots/wiringEthernet.png "Sensor Wiring")
 
 [Wiring Designed Using Fritzing Software: http://fritzing.org/home/](http://fritzing.org/home/)
 
 
 **Connect the DHT11 Sensor to an Arduino Uno Board**
+
+*Complete Wiring. Arduino Uno R3 & Ethernet Module ENC28J60 & DHT11 Sensor.*
 
 ![alt tag](screenshots/wiringSensor.png "Sensor Wiring")
 
@@ -55,3 +62,5 @@ interface for any controller equipped with SPI.*
 **Arduino HTML Data Table :**
 
 ![alt tag](screenshots/dataTable.png "Data Table")
+
+*In the table above we see the data sent to our database. More specifically, there is a humidity-temperature sensor connected to our Arduino and periodically via a network connection using the Ethernet Module ENC28J60 these data are recorded in a database. All the recordings are shown in detail in the list above.*
