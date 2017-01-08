@@ -17,6 +17,8 @@
 |3  |hum      |varchar(10)    |              |
 |4  |temp     |varchar(10)    |              |
 
+*The AUTO_INCREMENT keyword is used to perform an auto-increment feature. The starting value for AUTO_INCREMENT is 1, and it will increment by 1 for each new record.*
+
 *hum Stands for Humidity and temp Stands for Temperature.*
 
 *Type timestamp is used to keep track of when data is added to the Database.*
@@ -39,6 +41,9 @@ Arduino Uno pins: 10 = CS, 11 = MOSI, 12 = MISO, 13 = SCK*
 
 [Wiring Designed Using Fritzing Software: http://fritzing.org/home/](http://fritzing.org/home/)
 
+**DHT11 is the Humidity-Temperature Sensor**
+
+*DHT11 uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin*
 
 **Connect the DHT11 Sensor to an Arduino Uno Board**
 
