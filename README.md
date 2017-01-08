@@ -42,7 +42,7 @@ interface for any controller equipped with SPI.*
 
 *The Library for the Ethernet Module is :*
 
-*UIPEthernet Library :* [UIPEthernet](https://github.com/ntruchsess/arduino_uip/)
+*UIPEthernet Library :* [Arduino Ethernet library for ENC28J60 shields and breakout boards](https://github.com/ntruchsess/arduino_uip/)
 
 *The Library for the DHT11 sensor is :*
 
