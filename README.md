@@ -43,7 +43,7 @@ Arduino Uno pins: 10 = CS, 11 = MOSI, 12 = MISO, 13 = SCK*
 
 **DHT11 is a digital Humidity-Temperature Sensor**
 
-*DHT11 uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin*
+*DHT11 uses a capacitive humidity sensor and a thermistor to measure the surrounding air, and spits out a digital signal on the data pin.*
 
 **Connect the DHT11 Sensor to an Arduino Uno Board**
 
@@ -67,12 +67,12 @@ Arduino Uno pins: 10 = CS, 11 = MOSI, 12 = MISO, 13 = SCK*
 
 *Debug mode is On. We can see all the Serial.print() Messages*
 
-*At first, we get all the information about the Network, such as the client's IP Address, the Subnet Mask IP of the Network, the Default Gateway IP address and the DNS Server IP. Then, we get some extra information about the Status of the Ethernet Module and the Status of the Sensor. We get a "Connection Success" for the Ethernet Module and a "Sensor OK" for the DHT11. So everything is working as expected. Finally, the values humidity and temperature are printed and sent to the Local Server.*
+*At first, we get all the information about the Network, such as the client's IP Address, the Subnet Mask IP of the Network, the Default Gateway IP address and the DNS Server IP. Then, we get some extra information about the Status of the Ethernet Module and the Status of the Sensor. We get a "Connection Success" message for the Ethernet Module and a "Sensor OK" message for the DHT11. So, everything is working as expected. Finally, the values humidity and temperature are printed and sent to the Local Server.*
 
 ![alt tag](screenshots/serial_Monitor.png "Sensor Monitor")
 
 **Arduino HTML Data Table :**
 
-*In the table bellow we see the data sent to our database. More specifically, there is a DHT11 humidity-temperature Sensor connected to our Arduino and periodically via a network connection using the Ethernet Module ENC28J60 these data are recorded in a database. All the recordings are shown in detail in the list bellow.*
+*In the table bellow we see all the data stored inside the Database. More specifically, there is a DHT11 humidity-temperature Sensor connected to our Arduino and periodically via a network connection using the Ethernet Module ENC28J60 these data are recorded inside a database. All the recordings are shown in detail in the list bellow.*
 
 ![alt tag](screenshots/dataTable.png "Data Table")
