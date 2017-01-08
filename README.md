@@ -27,11 +27,16 @@ interface for any controller equipped with SPI.*
 
 **Connect ENC28J60 to an Arduino Uno Board**
 
+![alt tag](screenshots/wiringEthernet.png "Sensor Wiring")
+
+[Wiring Designed Using Fritzing Software: http://fritzing.org/home/](http://fritzing.org/home/)
+
+
 **Connect the DHT11 Sensor to an Arduino Uno Board**
 
 ![alt tag](screenshots/wiringSensor.png "Sensor Wiring")
 
-![Wiring Designed Using Fritzing Software: http://fritzing.org/home/]("http://fritzing.org/home/")
+[Wiring Designed Using Fritzing Software: http://fritzing.org/home/](http://fritzing.org/home/)
 
 **Libraries :**
 
