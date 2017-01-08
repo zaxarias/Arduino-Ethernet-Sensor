@@ -39,8 +39,8 @@ interface for any controller equipped with SPI.*
 
 *The Library for the Ethernet Module is :*
 
-*UIPEthernet Library :* ![Link]("https://github.com/ntruchsess/arduino_uip/")
+*UIPEthernet Library :* ![https://github.com/ntruchsess/arduino_uip/]("Link")
 
 *The Library for the DHT11 sensor is :*
 
-*DHT11 Library :* ![Link]("https://github.com/adafruit/DHT-sensor-library")
+*DHT11 Library :* ![https://github.com/adafruit/DHT-sensor-library]("Link")
